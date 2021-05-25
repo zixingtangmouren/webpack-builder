@@ -2,7 +2,7 @@
  * @Author: tangzhicheng
  * @Date: 2021-05-24 22:46:53
  * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-05-25 10:41:56
+ * @LastEditTime: 2021-05-25 16:27:28
  * @Description: file content
  */
 
@@ -14,7 +14,7 @@ describe('webpack.base test case', () => {
 
   it('entry', () => {
     // if (baseConfig.entry)
-    assert.deepStrictEqual(baseConfig.entry, { index: './src/index/index.js' })
+    assert.deepStrictEqual(baseConfig.entry, { index: './src/index/index.jsx' })
   })
 
   it('html plugins', (done) => {
