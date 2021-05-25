@@ -6,6 +6,7 @@ const App = () => {
 
   return (
     <>
+      asdasd
       <button onClick={() => setCount(100)}>click me</button>
       <div>{count}</div>
     </>
