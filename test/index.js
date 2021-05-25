@@ -2,7 +2,7 @@
  * @Author: tangzhicheng
  * @Date: 2021-05-24 22:45:33
  * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-05-24 22:48:59
+ * @LastEditTime: 2021-05-25 19:17:49
  * @Description: file content
  */
 
@@ -11,6 +11,7 @@ const { describe } = require('mocha')
 
 process.chdir(path.join(__dirname, 'smoke/template'))
 
-describe('checking weboack-base-config', () => {
-  require('./unit/webpack-base.test')
+describe('checking weboack-config', () => {
+  // require('./unit/webpack-base.test')
+  require('./unit/webpack-prod.test')
 })
