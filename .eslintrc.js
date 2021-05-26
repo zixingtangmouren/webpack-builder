@@ -2,7 +2,7 @@
  * @Author: tangzhicheng
  * @Date: 2021-05-23 12:55:21
  * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-05-24 11:47:34
+ * @LastEditTime: 2021-05-26 10:53:21
  * @Description: file content
  */
 
@@ -20,5 +20,6 @@ module.exports = {
     'linebreak-style': 'off',
     'no-console': 'off',
     'react/button-has-type': 'off',
+    'import/no-dynamic-require': 'off',
   },
 }
