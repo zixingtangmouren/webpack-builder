@@ -8,8 +8,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/.bin/_mocha",
-    "smoke": "node test/smoke/index"
+    "dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "dll": "webpack --config webpack.dll.js"
   },
   "keywords": [],
   "author": "",
