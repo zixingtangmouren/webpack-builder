@@ -2,7 +2,7 @@
  * @Author: tangzhicheng
  * @Date: 2021-05-23 11:15:42
  * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-05-24 10:57:14
+ * @LastEditTime: 2021-05-28 11:27:53
  * @Description: file content
  */
 
@@ -20,7 +20,7 @@ const devConfig = {
     hot: true,
     stats: 'errors-only',
   },
-  devtool: 'cheap-source-map',
+  devtool: 'source-map',
 }
 
 module.exports = merge(baseConfig, devConfig)

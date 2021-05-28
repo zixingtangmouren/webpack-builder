@@ -2,7 +2,7 @@
  * @Author: tangzhicheng
  * @Date: 2021-05-23 12:55:21
  * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-05-26 10:53:21
+ * @LastEditTime: 2021-05-28 09:59:27
  * @Description: file content
  */
 
@@ -21,5 +21,11 @@ module.exports = {
     'no-console': 'off',
     'react/button-has-type': 'off',
     'import/no-dynamic-require': 'off',
+    'max-len': 'off',
+    'max-classes-per-file': 'off',
+    'no-plusplus': 'off',
+    'react/destructuring-assignment': 'off',
+    'react/prop-types': 'off',
+    'consistent-return': 'off',
   },
 }

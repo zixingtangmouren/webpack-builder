@@ -71,7 +71,9 @@ export default class Game extends React.Component {
     const Winner = this.computeWinner(squares)
 
     return (
+
       <div>
+        123213
         {Winner}
         <Board squares={squares} onClick={this.handleClick} />
         <div>
