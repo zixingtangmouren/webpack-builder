@@ -1,17 +1,34 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
 import './style.scss'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from 'react-router-dom'
 
-const App = () => {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="app">
-      asdasd
-      <button onClick={() => setCount(100)}>click me</button>
-      <div className="niu-plus">{count}</div>
-    </div>
-  )
-}
+const App = () => (
+  <div className="app">
+    <ul>
+      <li>
+        <Link to="/home" />
+      </li>
+      <li>
+        <Link to="/about" />
+      </li>
+    </ul>
+    <Router>
+      <Switch>
+        <Route path="/home">
+          home
+        </Route>
+        <Route path="/about">
+          about
+        </Route>
+      </Switch>
+    </Router>
+  </div>
+)
 
 ReactDOM.render(<App />, document.getElementById('app'))

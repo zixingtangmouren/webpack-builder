@@ -62,6 +62,7 @@
     "core-js": "^3.12.1",
     "istanbul": "^0.4.5",
     "mocha": "^8.4.0",
+    "react-router-dom": "^5.2.0",
     "thread-loader": "^3.0.4"
   }
 }
