@@ -60,6 +60,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "core-js": "^3.12.1",
+    "express": "^4.17.1",
     "istanbul": "^0.4.5",
     "mocha": "^8.4.0",
     "react-router-dom": "^5.2.0",
