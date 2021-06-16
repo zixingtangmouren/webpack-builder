@@ -7,6 +7,6 @@
  */
 
 
- const { prodConfig } = require('webpack-v4-builder/lib')
+ const { prodConfig } = require('webpack-v4-builder')
 
  module.exports = prodConfig
