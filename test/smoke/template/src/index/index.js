@@ -1,9 +1,11 @@
 /**
  * @Author: tangzhicheng
- * @Date: 2021-05-24 11:23:27
+ * @Date: 2021-06-17 19:44:49
  * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-05-24 11:24:57
+ * @LastEditTime: 2021-06-17 19:49:30
  * @Description: file content
  */
 
-import './App'
+import './app'
+
+console.log(12312312)

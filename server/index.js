@@ -2,7 +2,7 @@
  * @Author: tangzhicheng
  * @Date: 2021-06-15 14:17:26
  * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-06-15 14:30:02
+ * @LastEditTime: 2021-06-17 19:54:12
  * @Description: file content
  */
 const express = require('express')
@@ -19,9 +19,6 @@ console.log(ROOT)
 // })
 
 app.use(express.static(path.join(ROOT, 'test/smoke/template/dist')))
-
-
-
 
 app.listen(5000, () => {
   console.log('start: 5000')

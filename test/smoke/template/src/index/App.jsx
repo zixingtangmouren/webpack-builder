@@ -1,34 +1,34 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import './style.scss'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-} from 'react-router-dom'
+import { render } from 'react-dom'
 
-const App = () => (
-  <div className="app">
-    <ul>
-      <li>
-        <Link to="/home" />
-      </li>
-      <li>
-        <Link to="/about" />
-      </li>
-    </ul>
-    <Router>
-      <Switch>
-        <Route path="/home">
-          home
-        </Route>
-        <Route path="/about">
-          about
-        </Route>
-      </Switch>
-    </Router>
-  </div>
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      count: 0,
+    }
+
+    this.onClick = this.onClick.bind(this)
+  }
+
+  onClick() {
+    this.setState(({ state }) => ({
+      count: state.count + 1,
+    }))
+  }
+
+  render() {
+    const { count } = this.state
+    return (
+      <div>
+        <span>{count}</span>
+        <button onClick={this.onClick}>click me</button>
+      </div>
+    )
+  }
+}
+
+render(
+  <App />,
+  document.getElementById('app'),
 )
-
-ReactDOM.render(<App />, document.getElementById('app'))
