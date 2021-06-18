@@ -1,14 +1,11 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-
-
-
 class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      count: 0
+      count: 0,
     }
 
     this.onClick = this.onClick.bind(this)
@@ -22,14 +19,17 @@ class App extends React.Component {
   }
 
   render() {
-    return <div>
-      {this.state.count}
-      <button onClick={this.onClick}>click me</button>
-    </div>
+    const { count } = this.state
+    return (
+      <div>
+        {count}
+        <button onClick={this.onClick}>click me</button>
+      </div>
+    )
   }
 }
 
 render(
   <App />,
-  document.getElementById('app')
+  document.getElementById('app'),
 )

@@ -6,6 +6,4 @@
  * @Description: file content
  */
 
-
 import './app'
-
