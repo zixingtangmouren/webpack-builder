@@ -29,7 +29,6 @@
     "@babel/core": "^7.14.2",
     "@babel/preset-env": "^7.14.2",
     "@babel/preset-react": "^7.13.13",
-    "autodll-webpack-plugin": "^0.4.2",
     "autoprefixer": "^10.2.5",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
@@ -61,7 +60,6 @@
     "terser-webpack-plugin": "^4.2.3",
     "url-loader": "^4.1.1",
     "webpack": "^4.46.0",
-    "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^3.3.12",
     "webpack-merge": "^5.7.3"
   }
