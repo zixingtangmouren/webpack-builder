@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import './index.scss'
+import banner from './banner.png'
 
 class App extends React.Component {
   constructor() {
@@ -22,6 +23,8 @@ class App extends React.Component {
     const { count } = this.state
     return (
       <div>
+        123123
+        <img src={banner} alt="" />
         <span className="count">{count}</span>
         <button onClick={this.onClick}>click me</button>
       </div>
