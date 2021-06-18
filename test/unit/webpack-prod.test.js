@@ -2,7 +2,7 @@
  * @Author: tangzhicheng
  * @Date: 2021-05-25 19:05:51
  * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-06-15 16:57:41
+ * @LastEditTime: 2021-06-18 16:57:04
  * @Description: file content
  */
 const { describe, it } = require('mocha')
@@ -14,10 +14,6 @@ describe('test webpack production config', () => {
     const smp = new SpeedMeasurePlugin()
 
     const prodConfig = require('../../lib/webpack.prod')
-
-    if (!prodConfig.module.rules[0].use.includes('thread-loader')) {
-      throw new Error('未开启多线程编译')
-    }
 
     webpack(smp.wrap(prodConfig), (err, stats) => {
       if (err) {

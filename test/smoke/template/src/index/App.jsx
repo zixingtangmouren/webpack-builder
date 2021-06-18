@@ -1,5 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
+import './index.scss'
 
 class App extends React.Component {
   constructor() {
@@ -21,7 +22,8 @@ class App extends React.Component {
     const { count } = this.state
     return (
       <div>
-        <span>{count}</span>
+        <div>hahahahahah</div>
+        <span className="number">{count}</span>
         <button onClick={this.onClick}>click me</button>
       </div>
     )
