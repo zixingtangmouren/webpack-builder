@@ -2,7 +2,7 @@
  * @Author: tangzhicheng
  * @Date: 2021-05-23 12:55:21
  * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-06-18 15:26:25
+ * @LastEditTime: 2021-06-19 12:02:34
  * @Description: file content
  */
 
@@ -22,5 +22,6 @@ module.exports = {
     'react/button-has-type': 'off',
     'import/no-dynamic-require': 'off',
     'class-methods-use-this': 'off',
+    'no-param-reassign': 'off',
   },
 }

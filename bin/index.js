@@ -1,9 +1,6 @@
 #!/usr/bin/env node
 const program = require('commander')
-
-const create = (name) => {
-  console.log(`create app is ${name}`)
-}
+const create = require('../lib/create')
 
 program
   .version('0.1.0')

@@ -18,8 +18,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chalk": "^2.4.2",
     "commander": "^6.2.1",
     "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
     "mocha": "^8.4.0",
     "rimraf": "^3.0.2",
     "speed-measure-webpack-plugin": "^1.5.0",

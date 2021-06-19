@@ -1,17 +1,17 @@
-language: node
+# language: node
 
-sudo: false
+# sudo: false
 
-cache:
-  apt: true
-  directories:
-    - node_modules
+# cache:
+#   apt: true
+#   directories:
+#     - node_modules
 
-node_js: stable
+# node_js: stable
 
-install:
-  - yarn
+# install:
+#   - yarn
 
-scripts:
-  - npm run test
-  - npm run smoke
+# scripts:
+#   - npm run test
+#   - npm run smoke
